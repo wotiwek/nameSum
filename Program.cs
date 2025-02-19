@@ -34,8 +34,6 @@ class Program
                 continue;
             }
 
-
-
             if (input.ToLower() == "exit")
             {
                 Console.WriteLine("Exiting the program...");
@@ -46,7 +44,6 @@ class Program
             {
                 Console.WriteLine("Note: Invalid characters detected and excluded from the calculation.");
             }
-
 
             int sum = input
                 .Where(c => (c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))
